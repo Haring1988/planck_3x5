@@ -9,3 +9,7 @@ on:
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3.0
+    
+- name: zmk
+remote: zmkfirmware
+revision: v0.3.0
