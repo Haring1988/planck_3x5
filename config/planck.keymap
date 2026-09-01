@@ -28,6 +28,60 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <10 11>;
+        };
+
+        caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <20 21>;
+        };
+
+        bk {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <9 8>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <28 29>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <18 19>;
+        };
+
+        home {
+            bindings = <&kp HOME>;
+            key-positions = <2 3>;
+        };
+
+        end {
+            bindings = <&kp END>;
+            key-positions = <12 13>;
+        };
+
+        pu {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <6 7>;
+        };
+
+        pd {
+            bindings = <&kp PG_DN>;
+            key-positions = <16 17>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
